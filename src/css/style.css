@@ -121,7 +121,7 @@ body .container {
 .plain_text {
   font-weight: 400;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 27px;
   letter-spacing: 0.36px;
   color: #546285;
 }
@@ -134,7 +134,7 @@ body .container {
   color: #35B8BE;
 }
 
-.plain_text {
+.margin_text {
   margin-top: 27px;
   max-width: 90%;
 }
@@ -221,4 +221,64 @@ body .container {
   background: url(../img/wooman.png) center center/cover, no-repeat;
   width: 523px;
   height: 614px;
+}
+
+.how-it-works {
+  padding-top: 134px;
+  min-height: 815px;
+}
+.how-it-works .how-it-works__title {
+  text-align: center;
+}
+.how-it-works .how-it-works__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 66px;
+}
+.how-it-works .how-it-works__col {
+  max-width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.how-it-works .how-it-works__img_left {
+  background: url(../img/how_it_works/burger.png) center center/cover, no-repeat;
+  width: 333px;
+  height: 267px;
+}
+.how-it-works .how-it-works__img_center {
+  background: url(../img/how_it_works/phone.png) center center/cover, no-repeat;
+  width: 333px;
+  height: 267px;
+}
+.how-it-works .how-it-works__img_right {
+  background: url(../img/how_it_works/home.png) center center/cover, no-repeat;
+  width: 333px;
+  height: 267px;
+}
+.how-it-works .how-it-works__title_col {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.66px;
+  color: #08090A;
+}
+.how-it-works .how-it-works__text {
+  margin-top: 15px;
+  max-width: 333px;
+  text-align: center;
 }

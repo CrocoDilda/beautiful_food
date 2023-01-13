@@ -78,7 +78,7 @@
 .plain_text {
 		font-weight: 400;
 		font-size: 18px;
-		line-height: 24px;
+		line-height: 27px;
 		letter-spacing: 0.36px;
 		color: $grey_text;
 	}
@@ -89,7 +89,7 @@
 		letter-spacing: 1.65px;
 		color: $turquoise_color;
 	}
-	.plain_text {
+	.margin_text {
 		margin-top: 27px;
 		max-width: 90%;
 	}
@@ -164,5 +164,53 @@
 		background: url(../img/wooman.png) center center / cover, no-repeat;
 		width: 523px;
 		height: 614px;
+	}
+}
+// How-it-works
+.how-it-works {
+	padding-top: 134px;
+	min-height: 815px;
+	.how-it-works__title {
+		text-align: center;
+	}
+	.how-it-works__row{
+		display: flex;
+		justify-content: space-around;
+		margin-top: 66px;
+	}
+	.how-it-works__col {
+		max-width: 25%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.how-it-works__img_left{
+		background: url(../img/how_it_works/burger.png) center center / cover, no-repeat;
+		width: 333px;
+		height: 267px;
+	}
+	.how-it-works__img_center{
+		background: url(../img/how_it_works/phone.png) center center / cover, no-repeat;
+		width: 333px;
+		height: 267px;
+	}
+	.how-it-works__img_right{
+		background: url(../img/how_it_works/home.png) center center / cover, no-repeat;
+		width: 333px;
+		height: 267px;
+	}
+	.how-it-works__title_col {
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 22px;
+		text-align: center;
+		letter-spacing: 0.66px;
+		color: $black_color;
+	}
+	.how-it-works__text{
+		margin-top: 15px;
+		max-width: 333px;
+		text-align: center;
 	}
 }
