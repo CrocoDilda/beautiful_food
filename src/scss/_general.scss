@@ -71,6 +71,46 @@
 		}
 	}
 }
+// General style
+.wrapper{
+	max-width: 50%;
+}
+.plain_text {
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 24px;
+		letter-spacing: 0.36px;
+		color: $grey_text;
+	}
+	.title_turquoise{
+		font-weight: 400;
+		font-size: 51px;
+		line-height: 55px;
+		letter-spacing: 1.65px;
+		color: $turquoise_color;
+	}
+	.plain_text {
+		margin-top: 27px;
+		max-width: 90%;
+	}
+	.pages_btn {
+		width: 194px;
+		height: 60px;
+		font-weight: 400;
+		font-size: 17px;
+		line-height: 20px;
+		text-align: center;
+		background: $turquoise_color;
+		border-radius: 6px;
+		color: $white_color;
+		transition: .2s;
+		border: 2px solid $turquoise_color;
+		margin-top: 57px;
+		&:hover{
+			color: $turquoise_color;
+			background: $white_color;
+		}
+	}
 // Hero 
 .hero {
 	min-height: 820px;
@@ -80,13 +120,13 @@
 		justify-content: space-between;
 		align-items: center;
 	}
-	.hero__wrapper {
-		max-width: 50%;
+	.wrapper {
 		.hero__title {
 			font-weight: 400;
 			font-size: 60px;
 			line-height: 60px;
 			letter-spacing: 1.8px;
+			color: $black_color;
 			}
 		.hero__title_blue {
 			color: $turquoise_color;
@@ -94,9 +134,6 @@
 		.hero__text {
 			margin-top: 27px;
 			max-width: 90%;
-		}
-		.hero__btn {
-			margin-top: 57px;
 		}
 		.hero__icons {
 			margin-top: 30px;
@@ -113,5 +150,19 @@
 		width: 600px;
 		height: 580px;
 		
+	}
+}
+// Fresh-products
+.ftesh-products {
+	margin-top: 140px;
+	.container{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.ftesh-products__image {
+		background: url(../img/wooman.png) center center / cover, no-repeat;
+		width: 523px;
+		height: 614px;
 	}
 }

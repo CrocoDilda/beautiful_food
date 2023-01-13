@@ -12,38 +12,6 @@ body .container {
   max-width: 1440px;
   padding: 0 80px;
 }
-body .plain_text {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-  letter-spacing: 0.36px;
-  color: #546285;
-}
-body .page_titles {
-  font-weight: 400;
-  font-size: 51px;
-  line-height: 55px;
-  letter-spacing: 1.65px;
-  color: #35B8BE;
-}
-body .pages_btn {
-  width: 194px;
-  height: 60px;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 20px;
-  text-align: center;
-  background: #35B8BE;
-  border-radius: 6px;
-  color: #ffffff;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-  border: 2px solid #35B8BE;
-}
-body .pages_btn:hover {
-  color: #35B8BE;
-  background: #ffffff;
-}
 
 .header .header__announcement {
   height: 48px;
@@ -146,6 +114,51 @@ body .pages_btn:hover {
   color: #35B8BE;
 }
 
+.wrapper {
+  max-width: 50%;
+}
+
+.plain_text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.36px;
+  color: #546285;
+}
+
+.title_turquoise {
+  font-weight: 400;
+  font-size: 51px;
+  line-height: 55px;
+  letter-spacing: 1.65px;
+  color: #35B8BE;
+}
+
+.plain_text {
+  margin-top: 27px;
+  max-width: 90%;
+}
+
+.pages_btn {
+  width: 194px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  background: #35B8BE;
+  border-radius: 6px;
+  color: #ffffff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  border: 2px solid #35B8BE;
+  margin-top: 57px;
+}
+.pages_btn:hover {
+  color: #35B8BE;
+  background: #ffffff;
+}
+
 .hero {
   min-height: 820px;
   padding-top: 100px;
@@ -161,36 +174,51 @@ body .pages_btn:hover {
       -ms-flex-align: center;
           align-items: center;
 }
-.hero .hero__wrapper {
-  max-width: 50%;
-}
-.hero .hero__wrapper .hero__title {
+.hero .wrapper .hero__title {
   font-weight: 400;
   font-size: 60px;
   line-height: 60px;
   letter-spacing: 1.8px;
+  color: #08090A;
 }
-.hero .hero__wrapper .hero__title_blue {
+.hero .wrapper .hero__title_blue {
   color: #35B8BE;
 }
-.hero .hero__wrapper .hero__text {
+.hero .wrapper .hero__text {
   margin-top: 27px;
   max-width: 90%;
 }
-.hero .hero__wrapper .hero__btn {
-  margin-top: 57px;
-}
-.hero .hero__wrapper .hero__icons {
+.hero .wrapper .hero__icons {
   margin-top: 30px;
 }
-.hero .hero__wrapper .hero__trustpilot {
+.hero .wrapper .hero__trustpilot {
   margin-top: 7px;
 }
-.hero .hero__wrapper .hero__text_footer {
+.hero .wrapper .hero__text_footer {
   margin-top: 10px;
 }
 .hero .hero__image {
   background: url(../img/img_food.png) center center/cover, no-repeat;
   width: 600px;
   height: 580px;
+}
+
+.ftesh-products {
+  margin-top: 140px;
+}
+.ftesh-products .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.ftesh-products .ftesh-products__image {
+  background: url(../img/wooman.png) center center/cover, no-repeat;
+  width: 523px;
+  height: 614px;
 }
