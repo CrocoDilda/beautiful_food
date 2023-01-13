@@ -157,10 +157,12 @@ body .pages_btn:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .hero .hero__wrapper {
   max-width: 50%;
-  margin-top: 57px;
 }
 .hero .hero__wrapper .hero__title {
   font-weight: 400;
