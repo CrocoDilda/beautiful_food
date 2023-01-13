@@ -1,9 +1,40 @@
-.container{
-	margin: 0 auto;
-	max-width: 1200px;
-	padding: 0 80px;
-}
+
 body{
 	font-family: 'Inter';
-
+	.container{
+		margin: 0 auto;
+		max-width: 1440px;
+		padding: 0 80px;
+	}
+	.plain_text {
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 24px;
+		letter-spacing: 0.36px;
+		color: $grey_text;
+	}
+	.page_titles{
+		font-weight: 400;
+		font-size: 51px;
+		line-height: 55px;
+		letter-spacing: 1.65px;
+		color: $turquoise_color;
+	}
+	.pages_btn {
+		width: 194px;
+		height: 60px;
+		font-weight: 400;
+		font-size: 17px;
+		line-height: 20px;
+		text-align: center;
+		background: $turquoise_color;
+		border-radius: 6px;
+		color: $white_color;
+		transition: .2s;
+		border: 2px solid $turquoise_color;
+		&:hover{
+			color: $turquoise_color;
+			background: $white_color;
+		}
+	}
 }

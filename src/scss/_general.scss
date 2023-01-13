@@ -1,5 +1,5 @@
+// Header
 .header {
-
 	.header__announcement {
 		height: 48px;
 		width: 100%;
@@ -69,5 +69,50 @@
 
 			}
 		}
+	}
+}
+// Hero 
+.hero {
+	min-height: 820px;
+	padding-top: 100px;
+	.container{
+		display: flex;
+		justify-content: space-between;
+	}
+	.hero__wrapper {
+		max-width: 50%;
+		margin-top: 57px;
+		.hero__title {
+			font-weight: 400;
+			font-size: 60px;
+			line-height: 60px;
+			letter-spacing: 1.8px;
+			}
+		.hero__title_blue {
+			color: $turquoise_color;
+		}
+		.hero__text {
+			margin-top: 27px;
+		}
+		.hero__btn {
+			margin-top: 57px;
+		}
+		.hero__icons {
+			margin-top: 30px;
+		}
+		.hero__star {
+		}
+		.hero__trustpilot {
+			margin-top: 7px;
+		}
+		.hero__text_footer {
+			margin-top: 10px;
+		}
+	}
+	.hero__image{
+		background: url(../img/img_food.png) center center / cover, no-repeat;
+		width: 600px;
+		height: 580px;
+		
 	}
 }
