@@ -173,6 +173,7 @@ body .pages_btn:hover {
 }
 .hero .hero__wrapper .hero__text {
   margin-top: 27px;
+  max-width: 90%;
 }
 .hero .hero__wrapper .hero__btn {
   margin-top: 57px;
