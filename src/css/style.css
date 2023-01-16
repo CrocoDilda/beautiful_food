@@ -5,12 +5,58 @@
   font-style: normal;
 }
 body {
+  background: #F5FBFC;
   font-family: "Inter";
 }
 body .container {
   margin: 0 auto;
   max-width: 1440px;
   padding: 0 80px;
+}
+
+.wrapper {
+  max-width: 50%;
+}
+
+.plain_text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  color: #546285;
+}
+
+.title_turquoise {
+  font-weight: 400;
+  font-size: 51px;
+  line-height: 55px;
+  letter-spacing: 1.65px;
+  color: #35B8BE;
+}
+
+.margin_text {
+  margin-top: 27px;
+  max-width: 90%;
+}
+
+.pages_btn {
+  width: 194px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  background: #35B8BE;
+  border-radius: 6px;
+  color: #ffffff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  border: 2px solid #35B8BE;
+  margin-top: 57px;
+}
+.pages_btn:hover {
+  color: #35B8BE;
+  background: #ffffff;
 }
 
 .header .header__announcement {
@@ -112,51 +158,6 @@ body .container {
   font-weight: 400;
   font-size: 13px;
   color: #35B8BE;
-}
-
-.wrapper {
-  max-width: 50%;
-}
-
-.plain_text {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 27px;
-  letter-spacing: 0.36px;
-  color: #546285;
-}
-
-.title_turquoise {
-  font-weight: 400;
-  font-size: 51px;
-  line-height: 55px;
-  letter-spacing: 1.65px;
-  color: #35B8BE;
-}
-
-.margin_text {
-  margin-top: 27px;
-  max-width: 90%;
-}
-
-.pages_btn {
-  width: 194px;
-  height: 60px;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 20px;
-  text-align: center;
-  background: #35B8BE;
-  border-radius: 6px;
-  color: #ffffff;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-  border: 2px solid #35B8BE;
-  margin-top: 57px;
-}
-.pages_btn:hover {
-  color: #35B8BE;
-  background: #ffffff;
 }
 
 .hero {
@@ -281,4 +282,170 @@ body .container {
   margin-top: 15px;
   max-width: 333px;
   text-align: center;
+}
+
+.our-menu {
+  min-height: 1336px;
+  padding-top: 154px;
+}
+.our-menu .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.our-menu .our-menu__subtitle {
+  margin-top: 26px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #546285;
+  max-width: 466px;
+}
+.our-menu .our-menu__btn_wrapper {
+  width: 466px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+.our-menu .our-menu__btn {
+  width: 132px;
+  height: 52px;
+  border: 1px solid rgba(97, 114, 131, 0.2);
+  border-radius: 6px;
+  background: #ffffff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.our-menu .our-menu__btn:hover {
+  width: 147px;
+  background: #35B8BE;
+  border: none;
+  color: #ffffff;
+}
+.our-menu .our-menu__shop_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  margin-top: 40px;
+}
+.our-menu .our-menu__shop_wrapper .our-menu__widget {
+  width: 49%;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid rgba(53, 184, 190, 0.15);
+  border-radius: 6px;
+  background: #ffffff;
+}
+.our-menu .our-menu__shop_wrapper .our-menu__widget:nth-child(n+3) {
+  margin-top: 20px;
+}
+.our-menu .our-menu__shop_wrapper .our-menu__img {
+  width: 120px;
+  height: 120px;
+}
+.our-menu .our-menu__shop_wrapper .our-menu__img_num-1 {
+  background: url(../img/burgers/dreams.jpg) center center/100% 100% no-repeat;
+}
+.our-menu .our-menu__shop_wrapper .our-menu__img_num-2 {
+  background: url(../img/burgers/waldo.jpg) center center/cover no-repeat;
+}
+.our-menu .our-menu__shop_wrapper .our-menu__img_num-3 {
+  background: url(../img/burgers/cali.jpg) center center/cover no-repeat;
+}
+.our-menu .our-menu__shop_wrapper .our-menu__img_num-4 {
+  background: url(../img/burgers/baco_buddy.jpg) center center/cover no-repeat;
+}
+.our-menu .our-menu__shop_wrapper .our-menu__img_num-5 {
+  background: url(../img/burgers/spicy.jpg) center center/cover no-repeat;
+}
+.our-menu .our-menu__shop_wrapper .our-menu__img_num-6 {
+  background: url(../img/burgers/classic.jpg) center center/cover no-repeat;
+}
+.our-menu .our-menu__shop_wrapper .our-menu__content {
+  font-weight: 400;
+  font-size: 15px;
+  max-width: 70%;
+  position: relative;
+}
+.our-menu .our-menu__shop_wrapper .our-menu__burgers-name {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.6px;
+  color: #08090A;
+  display: block;
+}
+.our-menu .our-menu__shop_wrapper .our-menu__prise {
+  font-weight: 400;
+  font-size: 16px;
+  color: #35B8BE;
+  display: block;
+  position: absolute;
+  right: 3.6%;
+  top: 1.5%;
+}
+.our-menu .our-menu__shop_wrapper .our-menu__desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  color: #546285;
+}
+.our-menu .our-menu__shop_wrapper .our-menu__busket_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.our-menu .our-menu__shop_wrapper .our-menu__numb_form {
+  margin-right: 8px;
+}
+.our-menu .our-menu__shop_wrapper .our-menu__numb_form .our-menu__numb {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 45px;
+  width: 60px;
+  background: #FAFAFA;
+  border: 1px solid #DDDDDD;
+  border-radius: 6px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+}
+.our-menu .our-menu__shop_wrapper .our-menu__btn_add {
+  height: 45px;
+  width: 115px;
+  margin-top: 0;
+  color: #000000;
+}
+.our-menu .our-menu__btn_footer {
+  width: 186px;
+  height: 60px;
 }
