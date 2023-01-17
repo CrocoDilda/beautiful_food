@@ -449,3 +449,25 @@ body .container {
   width: 186px;
   height: 60px;
 }
+
+.online-order {
+  min-height: 826px;
+  padding-top: 120px;
+}
+.online-order .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.online-order .online-order__image {
+  background: url(../img/phone.png) center center/cover, no-repeat;
+  width: 578px;
+  height: 586px;
+}
+.online-order .wrapper .online-order__btn {
+  width: 172px;
+  height: 60px;
+}

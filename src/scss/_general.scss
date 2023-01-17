@@ -355,3 +355,23 @@
 		height: 60px;
 	}
 }
+// Online-order
+.online-order {
+	min-height: 826px;
+	padding-top: 120px;
+	.container {
+		display: flex;
+		align-items: center;
+	}
+	.online-order__image {
+		background: url(../img/phone.png) center center / cover, no-repeat;
+		width: 578px;
+		height: 586px;
+	}
+	.wrapper {
+		.online-order__btn {
+			width: 172px;
+			height: 60px;
+		}
+	}
+}
