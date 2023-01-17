@@ -471,3 +471,28 @@ body .container {
   width: 172px;
   height: 60px;
 }
+
+.call-us {
+  min-height: 847px;
+  padding-top: 140px;
+}
+.call-us .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.call-us .wrapper .call-us__btn {
+  width: 255px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+.call-us .call-us__image {
+  background: url(../img/restaurant.png) center center/cover, no-repeat;
+  width: 578px;
+  height: 586px;
+}

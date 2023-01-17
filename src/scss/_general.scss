@@ -375,3 +375,26 @@
 		}
 	}
 }
+/// Call-us
+.call-us {
+	min-height: 847px;
+	padding-top: 140px;
+	.container {
+		display: flex;
+		align-items: center;
+	}
+	.wrapper {
+		.call-us__btn {
+			width: 255px;
+			height: 60px;
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 20px;
+		}
+	}
+	.call-us__image {
+		background: url(../img/restaurant.png) center center / cover, no-repeat;
+		width: 578px;
+		height: 586px;
+	}
+}
