@@ -496,3 +496,65 @@ body .container {
   width: 578px;
   height: 586px;
 }
+
+.support {
+  min-height: 727px;
+}
+.support .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.support .support__img {
+  width: 666px;
+  height: 640px;
+  background: url(../img/festive_table.jpg) center center/cover, no-repeat;
+  max-width: 49%;
+}
+.support .support__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 666px;
+  height: 640px;
+  max-width: 49%;
+  background: #35B8BE;
+  padding-left: 60px;
+}
+.support .support__content .title_turquoise {
+  color: #1B9097;
+}
+.support .support__content .support__title_white {
+  color: #ffffff;
+}
+.support .support__content .support__btn {
+  background: #ffffff;
+  color: #35B8BE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-color: #ffffff;
+}
+.support .support__content .support__btn:hover {
+  color: #ffffff;
+  background: #35B8BE;
+}

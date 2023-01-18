@@ -375,7 +375,7 @@
 		}
 	}
 }
-/// Call-us
+// Call-us
 .call-us {
 	min-height: 847px;
 	padding-top: 140px;
@@ -396,5 +396,48 @@
 		background: url(../img/restaurant.png) center center / cover, no-repeat;
 		width: 578px;
 		height: 586px;
+	}
+} 
+// Support
+.support {
+	min-height: 727px;
+	.container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.support__img {
+		width: 666px;
+		height: 640px;
+		background: url(../img/festive_table.jpg) center center / cover, no-repeat;
+		max-width: 49%;
+	}
+	.support__content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 666px;
+		height: 640px;
+		max-width: 49%;
+		background: $turquoise_color;
+		padding-left: 60px;
+		.title_turquoise {
+			color: $dark_turquoise_color;
+		}
+		.support__title_white {
+			color: $white_color;
+		}
+		.support__btn {
+			background: $white_color;
+			color: $turquoise_color;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-color: $white_color;
+			&:hover{
+				color: $white_color;
+				background: $turquoise_color;
+			}
+		}
 	}
 }
